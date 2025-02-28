@@ -27,14 +27,16 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 <h2>Installation Steps</h2>
 
 <h3>Create a Vitual Machine in Azure</h3>
-
+<p>
 Create the Resource Group
-
+</p>
 <p>
 <img src="https://i.imgur.com/jfmsee6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual CPUs. For the username and password, it can be anything as we'll be using this info to log into the VM with Remote Desktop on our main computer.
+Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual CPUs. 
+  
+  For the username and password, it can be anything as we'll be using this info to log into the VM with Remote Desktop on our main computer.
 </p>
 <br />
 
@@ -108,3 +110,57 @@ Open File Explorer, type, "C:\" in the search bar, Right-click and create a new 
 <img src="https://i.imgur.com/UcB7eYS.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
+
+<h3>Download VC_REDIST</h3>
+<p>
+From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe. 
+</p>
+<p>
+<img src="https://i.imgur.com/y5ObvUJ.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Download MySQL</h3>
+<p>
+From the “osTicket-Installation-Files” folder, install MySQL 5.5.62 
+(mysql-5.5.62-win32.msi) – 
+</p>
+<p>
+<img src="https://i.imgur.com/qXF0LED.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Typical Setup -> - - - - 
+Launch Configuration Wizard (after install) -> 
+Standard Configuration -> 
+Username: root,
+Password: root
+  
+  (This will be the Database that osTicket will use to store all our Data in)
+</p>
+<br />
+<p>
+<img src="https://i.imgur.com/Rmnpouh.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Open IIS as an Admin </h3>
+<p>
+Register PHP from within IIS, click “Register new PHP version” (PHP Manager -> C:\PHP\php-cgi.exe)
+
+  (Here, we are making the Web Server aware of the existence of PHP on the Computer and telling it where it is)
+</p>
+<p>
+<img src="https://i.imgur.com/X2MBRnb.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/q1sCY8g.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dD6zauu.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Reload IIS (Open IIS, Stop and Start the server) (on the Right, click Stop, then Start)
+</p>
+<p>
+<img src="https://i.imgur.com/CuAOdd2.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Install osTicket v1.15.8</h3>
+
