@@ -158,7 +158,7 @@ Register PHP from within IIS, click “Register new PHP version” (PHP Manager 
 Reload IIS (Open IIS, Stop and Start the server) (on the Right, click Stop, then Start)
 </p>
 <p>
-<img src="https://i.imgur.com/CuAOdd2.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HBH6sme.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
