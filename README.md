@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 
 <h2>Prerequisites</h2>
 
-- Item 1
+- Create a Virtual Machine in Azure
 - Item 2
 - Item 3
 - Item 4
@@ -163,4 +163,129 @@ Reload IIS (Open IIS, Stop and Start the server) (on the Right, click Stop, then
 <br />
 
 <h3>Install osTicket v1.15.8</h3>
+<p>
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” 
+</p>
+<p>
+<img src="https://i.imgur.com/FpB0ug9.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/9x3WfmM.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Now copy the “upload” folder into “c:\inetpub\wwwroot” - 
+ 
+  Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+</p>
+<p>
+<img src="https://i.imgur.com/woPRquw.png" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Q2cIiaS.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Reload IIS (Open IIS, Stop and Start the server) – Do it Again
+  
+  Here we are going to load the osTicket site.
+  Go to sites -> Default -> osTicket - 
+  On the right, click “Browse *:80”
+</p>
+<p>
+<img src="https://i.imgur.com/tXlBKY8.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Note that some extensions are not enabled - 
+  
+  Go back to IIS, sites -> Default -> osTicket - - - 
+  
+  Double-click PHP Manager 
+  
+  Click “Enable or disable an extension” - 
+  
+  Enable: php_imap.dll - 
+  
+  Enable: php_intl.dll 
+  
+  Enable: php_opcache.dll 
+</p>
+<P>
+  <img src="https://i.imgur.com/qKG1BzZ.png" width="80%" alt="Disk Sanitization Steps"/>
+</P>
+<p>
+Refresh the osTicket site in your browser, observe the changes
+</p>
+<p>
+  <img src="https://i.imgur.com/nv3yXOl.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
 
+<h3>Rename: ost-config.php </h3>
+<p>
+  From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php - 
+  
+  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<p>
+  <img src="https://i.imgur.com/pftCwMM.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<h3>Assign Permissions: ost-config.php</h3>
+<p>
+  Right click to Properties, Security, Advanced,
+  
+  Disable inheritance -> Remove All – 
+</p>
+<P>
+  <img src="https://i.imgur.com/jKFFIYe.png" width="80%" alt="Disk Sanitization Steps"/>
+</P>
+<p>
+  Next, we’ll add New Permissions, go to add permissions, select a principle, type Everyone 
+  
+  New Permissions -> Everyone -> All 
+  
+  (In this lab, we’ll give everyone access to it, just so the Lab can work through the ticket activities)
+  
+  Then check Full Control
+</p>
+<p>
+  <img src="https://i.imgur.com/ixam2Kx.png" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/vob0Fgn.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Click Apply & OK
+
+ Now osTicket has full control over the configuration file.  
+</p>
+<br />
+
+<h3>Continue Setting up osTicket in the browser (click Continue)</h3>
+<p>
+  Name Helpdesk - 
+  
+  Default email (receives email from customers)
+</p>
+<p>
+  <img src="https://i.imgur.com/Z72pBYq.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Before we continue, since we created the Database Application, we now need to log into that Database and create another database specific to osTicket so we can provide the Database Credentials.
+</p>
+<br />
+
+<h3>Download and Install HeidiSQL</h3>
+<P>
+  From the “osTicket-Installation-Files” folder, install HeidiSQL. - 
+  
+  Open Heidi SQL - - - 
+  
+  Create a new session, root/root 
+  
+  Connect to the session 
+</P>
+<p>
+  <img src="https://i.imgur.com/Qdh8xTk.png" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/m9c2BJN.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Create a database called “osTicket”
+</p>
+<p>
+  <img src="https://i.imgur.com/nwjLRWL.png" width="80%" alt="Disk Sanitization Steps"/>
+  <img src="https://i.imgur.com/GIYr758.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
