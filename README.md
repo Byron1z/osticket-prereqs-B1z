@@ -289,3 +289,38 @@ Refresh the osTicket site in your browser, observe the changes
   <img src="https://i.imgur.com/nwjLRWL.png" width="80%" alt="Disk Sanitization Steps"/>
   <img src="https://i.imgur.com/GIYr758.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<p>
+  Continue Setting up osTicket in the browser 
+  MySQL Database: osTicket 
+  
+  MySQL Username: root 
+  
+  MySQL Password: root 
+  
+  Click “Install Now!”
+</p>
+<p>
+  <img src="https://i.imgur.com/LJnNroz.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Congratulations, hopefully it is installed with no errors! 
+</p>
+<p>
+  <img src="https://i.imgur.com/Ff3Xmfp.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+  Here are all the tables of the tables that were created on our osTicket Database, osTicket we use this on the backend to help store our data.
+</p>
+<p>
+  <img src="https://i.imgur.com/XOT6s55.png" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
+<h3>Browse your Help Desk Login Page: http://localhost/osTicket/scp/login.php</h3>
+<p>
+ <img src="https://i.imgur.com/hxRFMne.png" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/VV9EkWU.png" width="80%" alt="Disk Sanitization Steps"/> 
+</p>
+<p>
+  For End Users, here is the osTicket URL: http://localhost/osTicket/
+</p>
