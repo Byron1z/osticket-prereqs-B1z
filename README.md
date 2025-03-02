@@ -5,6 +5,10 @@
 <h1>osTicket - Prerequisites and Installation</h1>
 This tutorial outlines the prerequisites and installation of the open-source Help Desk Ticketing System osTicket.<br />
 
+<h2>Files to Download</h2>
+
+- ### [Download](https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 📁
+  
 <h2>Software and Technologies Used</h2>
 
 - Windows 10 Pro, (version 22H2)
@@ -321,6 +325,7 @@ Refresh the osTicket site in your browser, observe the changes
  <img src="https://i.imgur.com/hxRFMne.png" width="80%" alt="Disk Sanitization Steps"/> 
   <img src="https://i.imgur.com/VV9EkWU.png" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
-<p>
-  For End Users, here is the osTicket URL: http://localhost/osTicket/
-</p>
+<br />
+
+<h3>For End Users, here is the osTicket URL: http://localhost/osTicket/</h3>
+
