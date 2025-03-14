@@ -11,8 +11,8 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
   
 <h2>Software and Technologies Used</h2>
 
-- Windows 10 Pro, (version 22H2)
 - Microsoft Azure (Virtual Machines/Compute)
+- Windows 10 Pro, (version 22H2)
 - Remote Desktop
 - Internet Information Services (IIS)
 
