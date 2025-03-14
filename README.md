@@ -23,10 +23,12 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 <h2>Prerequisites</h2>
 
 - Create a Virtual Machine in Azure
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Install osTicket v1.15.8
+- Install PHP Manager
+- Install Rewrite Module
+- Install Microsoft Visual C++ Redistributable
+- Install MySQL
+- Install HeidiSQL
 
 <h2>Installation Steps</h2>
 
@@ -115,7 +117,7 @@ Open File Explorer, type, "C:\" in the search bar, Right-click and create a new 
 </p>
 <br />
 
-<h3>Download VC_REDIST</h3>
+<h3>Download Microsoft Visual C++ Redistributable</h3>
 <p>
 From the “osTicket-Installation-Files” folder, install VC_redist.x86.exe. 
 </p>
