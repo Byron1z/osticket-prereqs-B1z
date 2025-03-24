@@ -324,9 +324,7 @@ Refresh the osTicket site in your browser, observe the changes
 
 <h3>Browse your Help Desk Login Page</h3>
 <p>
-  Congratulations, hopefully it is installed with no errors!
-
-  Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+  Now you could Browse to the Help Desk Login Page: http://localhost/osTicket/scp/login.php
 </p>
 <p>
  <img src="https://i.imgur.com/hxRFMne.png" width="80%" alt="Disk Sanitization Steps"/> 
