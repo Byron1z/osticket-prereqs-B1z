@@ -23,11 +23,11 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 <h2>Prerequisites</h2>
 
 - Create a Virtual Machine in Azure
-- Install osTicket v1.15.8
 - Install PHP Manager
 - Install Rewrite Module
 - Install Microsoft Visual C++ Redistributable
 - Install MySQL
+- Install osTicket v1.15.8
 - Install HeidiSQL
 
 <h2>Installation Steps</h2>
@@ -198,17 +198,17 @@ Reload IIS (Open IIS, Stop and Start the server) – Do it Again
 <p>
 Note that some extensions are not enabled - 
   
-  Go back to IIS, sites -> Default -> osTicket - - - 
+  - Go back to IIS, sites -> Default -> osTicket
   
-  Double-click PHP Manager 
+  - Double-click PHP Manager 
   
-  Click “Enable or disable an extension” - 
+  - Click “Enable or disable an extension” - 
   
-  Enable: php_imap.dll - 
+    - Enable: php_imap.dll - 
   
-  Enable: php_intl.dll 
+    - Enable: php_intl.dll 
   
-  Enable: php_opcache.dll 
+    - Enable: php_opcache.dll 
 </p>
 <P>
   <img src="https://i.imgur.com/qKG1BzZ.png" width="80%" alt="Disk Sanitization Steps"/>
@@ -322,12 +322,21 @@ Refresh the osTicket site in your browser, observe the changes
 </p>
 <br />
 
-<h3>Browse your Help Desk Login Page: http://localhost/osTicket/scp/login.php</h3>
+<h3>Browse your Help Desk Login Page</h3>
+<p>
+  Congratulations, hopefully it is installed with no errors!
+
+  Browse to your help desk login page: http://localhost/osTicket/scp/login.php
+</p>
 <p>
  <img src="https://i.imgur.com/hxRFMne.png" width="80%" alt="Disk Sanitization Steps"/> 
   <img src="https://i.imgur.com/VV9EkWU.png" width="80%" alt="Disk Sanitization Steps"/> 
 </p>
 <br />
 
-<h3>For End Users, here is the osTicket URL: http://localhost/osTicket/</h3>
+<h3>For End-Users, here is the osTicket URL</h3>
+<p>
+  
+  - http://localhost/osTicket/
+</p>
 
