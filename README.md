@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 - Install MySQL
 - Install osTicket v1.15.8
 - Install HeidiSQL
-
+<br />
 <h2>Installation Steps</h2>
 
 <h3>Create a Vitual Machine in Azure</h3>
