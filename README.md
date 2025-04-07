@@ -32,7 +32,13 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 <br />
 <h2>Installation Steps</h2>
 
-<h3>Create a Vitual Machine in Azure</h3>
+<h3>Create a Vitual Machine (Windows 10 Pro) in Azure</h3>
+<p>
+  We'll be using Microsoft Azure, so log into your Azure Account.
+</p>
+<p>
+  <img src="https://i.imgur.com/KS5Ad2k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
 <p>
 Create the Resource Group
 </p>
@@ -40,7 +46,7 @@ Create the Resource Group
 <img src="https://i.imgur.com/jfmsee6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual CPUs. 
+Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual CPUs,
   
   For the username and password, it can be anything as we'll be using this info to log into the VM with Remote Desktop on our main computer.
 </p>
@@ -61,7 +67,7 @@ After creating, log into the Azure VM with Remote Desktop on your PC,
 <p>
 Now from within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip or extract it onto your desktop. The folder should be called “osTicket-Installation-Files”.
   
--We will use the files in this folder to install osTicket and some of the Dependencies it needs to run.
+- We will use the files in this folder to install osTicket and some of the Dependencies it needs to run.
 </p>
 <br />
 
