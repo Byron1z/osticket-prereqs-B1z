@@ -79,11 +79,15 @@ Now from within the VM (osticket-vm), download the osTicket-Installation-Files.z
 
 <h3>Enable IIS (Internet Information Services)</h3>
 <p>
-Next, we are going to install / Enable IIS (Internet Information Services, a web server that will serve osTicket) in Windows WITH CGI. 
+Next, we are going to install / Enable IIS (Internet Information Services), a Web Server that will serve osTicket in Windows 10 WITH CGI.
 
-  Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS).
+Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. 
 
--World Wide Web Services -> Application Development Features -> [X] CGI
+The PHP manager is a back-end web programming language that allows osTicket to run off a web browser.
+
+Go to your Search Bar -> Type "Control Panel" -> Click "Programs" -> "Turn Windows features on or off" -> Scroll down to "Internet Information Services (IIS)"
+
+-> "World Wide Web Services" -> "Application Development Features" -> [X] "CGI"
 </p>
 <br />
 
