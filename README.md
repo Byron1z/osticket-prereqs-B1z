@@ -23,6 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 <h2>Prerequisites</h2>
 
 - Create a Virtual Machine in Azure
+- Enable IIS
 - Install PHP Manager
 - Install Rewrite Module
 - Install Microsoft Visual C++ Redistributable
@@ -74,9 +75,11 @@ Now from within the VM (osticket-vm), download the osTicket-Installation-Files.z
 <p>
 <img src="https://i.imgur.com/26QLMMD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
+<br />
 
+<h3>Enable IIS (Internet Information Services)</h3>
 <p>
-Next, we are going to Install / Enable IIS (Internet Information Services, a web server that will serve osTicket) in Windows WITH CGI. 
+Next, we are going to install / Enable IIS (Internet Information Services, a web server that will serve osTicket) in Windows WITH CGI. 
 
   Go to your Search Bar > Type "Control Panel" > Click "Programs" > "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS).
 
