@@ -58,7 +58,7 @@ Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual 
 </p>
 
 <p>
-After creating, log into the Azure VM with Remote Desktop app on your PC,
+After creating, log into the Azure VM with the Remote Desktop app on your PC,
 </p>
 <br />
 
