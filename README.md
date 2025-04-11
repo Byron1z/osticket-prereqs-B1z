@@ -69,6 +69,8 @@ After creating, log into the Azure VM with Remote Desktop app on your PC,
 Now from within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip or extract it onto your desktop. The folder should be called “osTicket-Installation-Files”.
   
 - We will use the files in this folder to install osTicket and some of the Dependencies it needs to run.
+
+Download link: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD 
 </p>
 <br />
 
