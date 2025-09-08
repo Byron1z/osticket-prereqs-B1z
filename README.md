@@ -342,8 +342,8 @@ Refresh the osTicket site in your browser, and observe the changes
   Now you could browse to the Help Desk Login Page: http://localhost/osTicket/scp/login.php
 </p>
 <p>
-  <img src="https://i.imgur.com/hxRFMne.png" width="90%" alt="Disk Sanitization Steps"/> 
-  <img src="https://i.imgur.com/VV9EkWU.png" width="90%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/hxRFMne.png" width="100%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/VV9EkWU.png" width="100%" alt="Disk Sanitization Steps"/> 
 </p>
 <br />
 
