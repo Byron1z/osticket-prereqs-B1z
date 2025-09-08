@@ -33,9 +33,9 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 <br />
 <h2>Installation Steps</h2>
 
-<h3>Create a Vitual Machine (Windows 10 Pro) in Azure</h3>
+<h3>Create a Virtual Machine (Windows 10 Pro) in Azure</h3>
 <p>
-  We'll be using Microsoft Azure, so log into your Azure Account.
+  We'll be using Microsoft Azure, so log in to your Azure Account.
 </p>
 <p>
   <img src="https://i.imgur.com/KS5Ad2k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -49,7 +49,7 @@ Create the Resource Group
 <p>
 Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual CPUs,
   
-  For the username and password, it can be anything as we'll be using this info to log into the VM with Remote Desktop on our main computer.
+  For the username and password, they can be anything, as we'll be using this info to log into the VM with Remote Desktop on our main computer.
 </p>
 <br />
 
@@ -58,7 +58,7 @@ Create an Azure Windows 10 Virtual Machine (VM), typically with 4 vCPUs Virtual 
 </p>
 
 <p>
-After creating, log into the Azure VM with the Remote Desktop app on your PC,
+After creating, log in to the Azure VM with the Remote Desktop app on your PC,
 </p>
 <br />
 
@@ -66,7 +66,7 @@ After creating, log into the Azure VM with the Remote Desktop app on your PC,
 <img src="https://i.imgur.com/R9TZyBT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Now from within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip or extract it onto your desktop. The folder should be called “osTicket-Installation-Files”.
+Now, from within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip or extract it onto your desktop. The folder should be called “osTicket-Installation-Files”.
   
 - We will use the files in this folder to install osTicket and some of the Dependencies it needs to run.
 
@@ -81,9 +81,9 @@ Download link: https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMu
 
 <h3>Enable IIS (Internet Information Services)</h3>
 <p>
-Next, we are going to install / Enable IIS (Internet Information Services), a Web Server that will serve osTicket in Windows 10 WITH CGI.
+Next, we are going to install / enable IIS (Internet Information Services), a Web Server that will serve osTicket in Windows 10 WITH CGI.
 
-Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the application Developer tab. Finally check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. 
+Once clicked, find the "Internet Information Services" expand it and then expand the "World Wide Web" tab. Afterward, expand the Application Developer tab. Finally, check the "CGI" button & press Ok. You will need CGI to download the PHP Manager. 
 
 The PHP manager is a back-end web programming language that allows osTicket to run off a web browser.
 
@@ -100,7 +100,7 @@ Go to your Search Bar -> Type "Control Panel" -> Click "Programs" -> "Turn Windo
 
 <h3>Install PHP Manager</h3>
 <p>
-Next, From the “osTicket-Installation-Files” folder, install PHP Manager for IIS 
+Next, from the “osTicket-Installation-Files” folder, install PHP Manager for IIS 
 (PHPManagerForIIS_V1.5.0.msi)
 </p>
 <p>
@@ -110,7 +110,7 @@ Next, From the “osTicket-Installation-Files” folder, install PHP Manager for
 
 <h3>Install Rewrite Module</h3>
 <p>
-Next, From the “osTicket-Installation-Files” folder install the Rewrite Module 
+Next, from the “osTicket-Installation-Files” folder, install the Rewrite Module 
 (rewrite_amd64_en-US.msi) 
 </p>
 <p>
@@ -120,7 +120,7 @@ Next, From the “osTicket-Installation-Files” folder install the Rewrite Modu
 
 <h3>Create DIRECTORY C:\PHP</h3>
 <p>
-Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP".
+Open File Explorer, type "C:\" in the search bar, Right-click, and create a new folder called "PHP".
 
   From the “osTicket-Installation-Files” folder, unzip PHP 7.3.8 
 (php-7.3.8-nts-Win32-VC15-x86.zip) into the “C:\PHP” folder.
@@ -194,7 +194,7 @@ From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip
 <p>
 Now copy the “upload” folder into “c:\inetpub\wwwroot” - 
  
-  Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
+  Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”
 </p>
 <p>
 <img src="https://i.imgur.com/woPRquw.png" width="80%" alt="Disk Sanitization Steps"/>
@@ -229,7 +229,7 @@ Note that some extensions are not enabled -
   <img src="https://i.imgur.com/qKG1BzZ.png" width="80%" alt="Disk Sanitization Steps"/>
 </P>
 <p>
-Refresh the osTicket site in your browser, observe the changes
+Refresh the osTicket site in your browser, and observe the changes
 </p>
 <p>
   <img src="https://i.imgur.com/nv3yXOl.png" width="80%" alt="Disk Sanitization Steps"/>
@@ -330,7 +330,7 @@ Refresh the osTicket site in your browser, observe the changes
   <img src="https://i.imgur.com/Ff3Xmfp.png" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-  Here are all the tables of the tables that were created on our osTicket Database, osTicket we use this on the backend to help store our data.
+  Here are all the tables of the tables that were created on our osTicket Database, which we use on the backend to help store our data.
 </p>
 <p>
   <img src="https://i.imgur.com/XOT6s55.png" width="80%" alt="Disk Sanitization Steps"/>
@@ -339,17 +339,16 @@ Refresh the osTicket site in your browser, observe the changes
 
 <h3>Browse your Help Desk Login Page</h3>
 <p>
-  Now you could Browse to the Help Desk Login Page: http://localhost/osTicket/scp/login.php
+  Now you could browse to the Help Desk Login Page: http://localhost/osTicket/scp/login.php
 </p>
 <p>
- <img src="https://i.imgur.com/hxRFMne.png" width="80%" alt="Disk Sanitization Steps"/> 
-  <img src="https://i.imgur.com/VV9EkWU.png" width="80%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/hxRFMne.png" width="90%" alt="Disk Sanitization Steps"/> 
+  <img src="https://i.imgur.com/VV9EkWU.png" width="90%" alt="Disk Sanitization Steps"/> 
 </p>
 <br />
 
 <h3>For End-Users, here is the osTicket URL</h3>
 <p>
-  
   - http://localhost/osTicket/
 </p>
 
