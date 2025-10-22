@@ -9,7 +9,7 @@ This tutorial outlines the prerequisites and installation of the open-source Hel
 
 - ### [Download](https://drive.google.com/drive/u/2/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 📁
   
-<h2>Software and Technologies Used</h2>
+<h2>💻⚙️ Software and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Windows 10 Pro, (version 22H2)
